@@ -4,4 +4,4 @@ steps:
   entrypoint: /bin/sh
   args:
   - -c
-  - 'pip install pytest && pip install -r requirements.txt && pytest test/*_test*.py'
+  - 'pip install pytest && pip install -r requirements.txt && pytest test/*_test_*.py'
